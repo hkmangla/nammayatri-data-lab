@@ -26,5 +26,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository }}/nammayatri-data-lab:latest
+        tags: ghcr.io/${{ github.repository }}:latest
 
